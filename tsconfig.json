@@ -4,10 +4,10 @@
     "esModuleInterop": true,
     "target": "ESNext",
     "module": "ESNext",
-    "moduleResolution": "node",
+    "moduleResolution": "bundler",
     "jsxImportSource": "solid-js",
     "jsx": "preserve",
-    "types": ["vite/client"],
+    "types": ["vinxi/types/client"],
     "baseUrl": "./",
     "paths": {
       "~/*": ["./src/*"]
