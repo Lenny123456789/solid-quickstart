@@ -4,6 +4,7 @@ dist
 .output
 .vercel
 .netlify
+.vinxi
 netlify
 
 # dependencies
@@ -22,3 +23,12 @@ gitignore
 # System Files
 .DS_Store
 Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# Analysis outputs (generated files)
+analysis/output/
